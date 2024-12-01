@@ -11,3 +11,23 @@
 button {
   @apply transition-all hover:bg-blue-600 focus:outline-none;
 }
+.bg-gray-400 {
+  transition: background-color 0.2s ease-in-out;
+}
+.split {
+  display: flex;
+  height: 100%;
+}
+
+.split > div {
+  overflow: auto;
+}
+
+.split .gutter {
+  background-color: #ddd;
+  cursor: col-resize;
+  width: 5px;
+}
+.split .gutter:hover {
+  background-color: #bbb;
+}
