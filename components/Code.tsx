@@ -53,7 +53,6 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
     setCode(initialCode || `// Start coding here in ${language}...`);
   }, [language, initialCode]);
 
-  // Handle code changes
   const handleCodeChange = (newCode: string) => {
     setCode(newCode);
     onCodeSave(language, newCode);

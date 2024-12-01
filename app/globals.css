@@ -31,3 +31,21 @@ button {
 .split .gutter:hover {
   background-color: #bbb;
 }
+
+smHide {
+  display: none;
+}
+
+lgHide {
+  display: block;
+}
+
+@media screen and (max-width: 640px) {
+  smHide {
+    display: block;
+  }
+
+  lgHide {
+    display: none;
+  }
+}

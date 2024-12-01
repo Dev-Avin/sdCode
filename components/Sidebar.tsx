@@ -31,7 +31,7 @@ const Sidebar: React.FC<SidebarProps> = ({
             : "bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400"
         }`}
       >
-        <div className="text-[22px]">{icon}</div>
+        <div className="text-[22px] sm:text-[18px] md:text-[22px]">{icon}</div>
       </button>
     ))}
   </div>
